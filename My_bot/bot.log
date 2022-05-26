@@ -1,0 +1,95 @@
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\LP25\My_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\LP25\My_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\LP25\My_bot\bot.py", line 71, in guess_number
+    message = 'Введите целове число'
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\LP25\My_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\LP25\My_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\LP25\My_bot\bot.py", line 77, in guess_number
+    update.message.reply_text(message)
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\LP25\My_bot\env\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\LP25\My_bot\env\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "D:\LP25\My_bot\bot.py", line 98, in send_cat_picture
+    context.bot.send_animation(chat_id, photo=open(cat_pic_filename, 'rb'))
+  File "D:\LP25\My_bot\env\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+TypeError: Bot.send_animation() got an unexpected keyword argument 'photo'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Бот стартовал
+apscheduler.scheduler - INFO - Scheduler started
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+apscheduler.scheduler - INFO - Scheduler has been shut down
+telegram.ext.updater - WARNING - Exiting immediately!
